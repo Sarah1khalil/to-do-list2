@@ -1,0 +1,171 @@
+
+:root {
+    --primary-brown: #4e3629; /* Dark brown for headers and important text */
+    --secondary-brown: #8b5a2b; /* Lighter brown for backgrounds and buttons */
+    --light-brown: #d2b29d; /* Light brown for sections and forms */
+    --accent-brown: #f1e0c6; /* Accent color for highlights */
+    --white: #ffffff; /* White for text or highlights */
+    --dark-grey: #333333; /* Dark grey for text */
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: var(--light-brown);
+    color: var(--dark-grey);
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* App Wrapper */
+  .app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Greeting Section */
+  .greeting {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: var(--primary-brown);
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 1px solid var(--primary-brown);
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  input[type="text"]:focus {
+    border-color: var(--secondary-brown);
+  }
+  
+  /* New Todo Section */
+  .create-todo h3 {
+    font-size: 2rem;
+    color: var(--primary-brown);
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    color: var(--primary-brown);
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    margin-bottom: 10px;
+  }
+  
+  .options label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .options input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .options .bubble {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .business {
+    background-color: var(--secondary-brown);
+  }
+  
+  .personal {
+    background-color: var(--accent-brown);
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: var(--secondary-brown);
+    border: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: var(--primary-brown);
+  }
+  
+  /* Todo List Section */
+  .todo-list {
+    margin-top: 40px;
+  }
+  
+  .todo-list h3 {
+    font-size: 2rem;
+    color: var(--primary-brown);
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    list-style-type: none;
+  }
+  
+  .todo-item {
+    background-color: var(--accent-brown);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-item span {
+    flex-grow: 1;
+  }
+  
+  .todo-item button {
+    background-color: var(--primary-brown);
+    border: none;
+    color: var(--white);
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-item button:hover {
+    background-color: var(--secondary-brown);
+  }
+  
+
+    
+    
+    
+    
+    
